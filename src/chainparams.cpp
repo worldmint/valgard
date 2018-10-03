@@ -57,7 +57,7 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
     (0, uint256("1a48a3140b205c5a182662d6187fff375074c5f0455fb4f608238ca4939dd907"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1537376400, // * UNIX timestamp of last checkpoint block
+    1538577000, // * UNIX timestamp of last checkpoint block
     0,          // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
@@ -67,7 +67,7 @@ static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     boost::assign::map_list_of(0, uint256("0x001"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
-    1537376400,
+    1538577000,
     0,
     250};
 
@@ -75,7 +75,7 @@ static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
     boost::assign::map_list_of(0, uint256("0x001"));
 static const Checkpoints::CCheckpointData dataRegtest = {
     &mapCheckpointsRegtest,
-    1537376400,
+    1538577000,
     0,
     100};
 
@@ -91,10 +91,10 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0xf8;
-        pchMessageStart[1] = 0xa8;
-        pchMessageStart[2] = 0x6c;
-        pchMessageStart[3] = 0x3b;
+        pchMessageStart[0] = 0x3c;
+        pchMessageStart[1] = 0x8f;
+        pchMessageStart[2] = 0x4f;
+        pchMessageStart[3] = 0x7b;
         vAlertPubKey = ParseHex("041babfe7f012d2a85edac110ebdfaff0f4c5fdea78ec811703d921de824d5979eea2aea703b15bda37c7add3248fb85f89a5c45cfafe85b78af33905613a95a52");
         nDefaultPort = 39397;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // ValgardCoin starting difficulty is 1 / 2^12
@@ -109,9 +109,9 @@ public:
         nLastPOWBlock = 300;
         nMaturity = 50;
         nMasternodeCountDrift = 20;
-        nMasternodeCollateralLimit = 50000;
+        nMasternodeCollateralLimit = 1000;
         nModifierUpdateBlock = 615800;
-        nMaxMoneyOut = 650000000 * COIN;
+        nMaxMoneyOut = 32000000 * COIN;
 
         /**
          * Build the genesis block. Note that the output of the genesis coinbase cannot
@@ -123,7 +123,7 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "Valgardcoin is a coin for an economic gaming system built on a chain of blocks!";
+        const char* pszTimestamp = "It is a coin for an economic game system built on the chain of Valgardcoin blocks";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -134,7 +134,7 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1537376400;
+        genesis.nTime = 1538577000;
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 2394236;
 
@@ -169,7 +169,7 @@ public:
         strSporkKey = "04a800fd21d66d68fb5ca725403cabed0af5b8b3940912ad09324d9cabe140c507829b68faa231c4f6a7f6761df69bdbdce5d86d78f34cbbb74d1339036b6d91c5";
         strObfuscationPoolDummyAddress = "Lpq9ED33YVTaq224dxKJRFQqCGMMKpsYpg";
 		
-        nStartMasternodePayments = 1537376400; // Wed, 19 Sep 2018 20:00:00 GMT
+        nStartMasternodePayments = 1538577000; // Wed, 03 Oct 2018 14:30:00 GMT
     }
 
     const Checkpoints::CCheckpointData& Checkpoints() const
@@ -189,10 +189,10 @@ public:
     {
         networkID = CBaseChainParams::TESTNET;
         strNetworkID = "test";
-        pchMessageStart[0] = 0x05;
-        pchMessageStart[1] = 0xcf;
-        pchMessageStart[2] = 0x23;
-        pchMessageStart[3] = 0x7f;
+        pchMessageStart[0] = 0xa3;
+        pchMessageStart[1] = 0x72;
+        pchMessageStart[2] = 0x8c;
+        pchMessageStart[3] = 0x57;
         vAlertPubKey = ParseHex("04d34163a727480c3e094f181975a3491873fdbfe689044480faa5f684731403a85434736aaa45c60093ab79eb9a7d72cb27461416dc8c837e7ea7a83ede23f3bd");
         nDefaultPort = 39395;
         nEnforceBlockUpgradeMajority = 51;
@@ -205,11 +205,11 @@ public:
         nMaturity = 15;
         nMasternodeCountDrift = 4;
         nMasternodeCollateralLimit = 1000;
-        nModifierUpdateBlock = 51197; // Wed, 22 Aug 2018 13:00:00 GMT
+        nModifierUpdateBlock = 51197; // Thu, 08 Nov 2018 20:45:00 GMT
         nMaxMoneyOut = 43199500 * COIN;
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1537376400;
+        genesis.nTime = 1538577000;
         genesis.nNonce = 2394236;
 
         hashGenesisBlock = genesis.GetHash();
@@ -245,7 +245,7 @@ public:
         nPoolMaxTransactions = 2;
         strSporkKey = "04ca864ee5e01ddf5ec4db13d7df059ce12741a9c90fb68ba2c84695b1d2217b143fbb86c9e7cd37a27161b1da170ed12b1d7ecfb8d84b70ebd2eab29f9871d556";
         strObfuscationPoolDummyAddress = "yFm5VZYdHX1gsLHMdFrAFnGVfgT4b87Zwq";
-        nStartMasternodePayments = 1537376400; // Wed, 22 Aug 2018 13:00:00 GMT
+        nStartMasternodePayments = 1538577000; // Wed, 03 Oct 2018 14:30:00 GMT
     }
     const Checkpoints::CCheckpointData& Checkpoints() const
     {
@@ -265,10 +265,10 @@ public:
         networkID = CBaseChainParams::REGTEST;
         strNetworkID = "regtest";
         strNetworkID = "regtest";
-        pchMessageStart[0] = 0xde;
-        pchMessageStart[1] = 0xca;
-        pchMessageStart[2] = 0x4b;
-        pchMessageStart[3] = 0x0d;
+        pchMessageStart[0] = 0x9c;
+        pchMessageStart[1] = 0xf5;
+        pchMessageStart[2] = 0xae;
+        pchMessageStart[3] = 0x71;
         nSubsidyHalvingInterval = 150;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
@@ -277,7 +277,7 @@ public:
         nTargetTimespan = 24 * 60 * 60; // ValgardCoin: 1 day
         nTargetSpacing = 1 * 60;        // ValgardCoin: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1537376400;
+        genesis.nTime = 1538577000;
         genesis.nBits = 0x207fffff;
         genesis.nNonce = 906460;
 
