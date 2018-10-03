@@ -2,7 +2,7 @@ ValgardCoin (fork of PIVX) integration/staging repository
 ======================================
 
 
-It is recommended [use the shell script](https://github.com/worldmint/vpcinstall) to install a ValgardCoin Masternode on a Linux server running Ubuntu 14.04 or 16.04
+It is recommended [use the shell script](https://github.com/worldmint/vlginstall) to install a ValgardCoin Masternode on a Linux server running Ubuntu 14.04 or 16.04
 
 ***
 
