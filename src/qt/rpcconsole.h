@@ -92,7 +92,7 @@ public slots:
     void showPeers();
     /** Switch to wallet-repair tab and show */
     void showRepair();
-    /** Open external (default) editor with valinorcoin.conf */
+    /** Open external (default) editor with valgardcoin.conf */
     void showConfEditor();
     /** Open external (default) editor with masternode.conf */
     void showMNConfEditor();

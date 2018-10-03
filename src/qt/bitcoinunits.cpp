@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The ValinorCoin developers
+// Copyright (c) 2018 The ValgardCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -20,18 +20,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(VPC);
-    unitlist.append(mVPC);
-    unitlist.append(uVPC);
+    unitlist.append(VLG);
+    unitlist.append(mVLG);
+    unitlist.append(uVLG);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case VPC:
-    case mVPC:
-    case uVPC:
+    case VLG:
+    case mVLG:
+    case uVLG:
         return true;
     default:
         return false;
@@ -41,12 +41,12 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case VPC:
-        return QString("valinorcoin");
-    case mVPC:
-        return QString("mvalinorcoin");
-    case uVPC:
-        return QString::fromUtf8("uvalinorcoin");
+    case VLG:
+        return QString("valgardcoin");
+    case mVLG:
+        return QString("mvalgardcoin");
+    case uVLG:
+        return QString::fromUtf8("uvalgardcoin");
     default:
         return QString("???");
     }
@@ -56,23 +56,23 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case VPC:
-            return QString("VPC");
-        case mVPC:
-            return QString("mVPC");
-        case uVPC:
-            return QString::fromUtf8("μVPC");
+        case VLG:
+            return QString("VLG");
+        case mVLG:
+            return QString("mVLG");
+        case uVLG:
+            return QString::fromUtf8("μVLG");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case VPC:
-            return QString("tVPC");
-        case mVPC:
-            return QString("mtVPC");
-        case uVPC:
-            return QString::fromUtf8("μtVPC");
+        case VLG:
+            return QString("tVLG");
+        case mVLG:
+            return QString("mtVLG");
+        case uVLG:
+            return QString::fromUtf8("μtVLG");
         default:
             return QString("???");
         }
@@ -83,23 +83,23 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case VPC:
-            return QString("VPC");
-        case mVPC:
-            return QString("Milli-VPC (1 / 1" THIN_SP_UTF8 "000)");
-        case uVPC:
-            return QString("Micro-VPC (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case VLG:
+            return QString("VLG");
+        case mVLG:
+            return QString("Milli-VLG (1 / 1" THIN_SP_UTF8 "000)");
+        case uVLG:
+            return QString("Micro-VLG (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case VPC:
-            return QString("TestVPCs");
-        case mVPC:
-            return QString("Milli-TestVPC (1 / 1" THIN_SP_UTF8 "000)");
-        case uVPC:
-            return QString("Micro-TestVPC (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case VLG:
+            return QString("TestVLGs");
+        case mVLG:
+            return QString("Milli-TestVLG (1 / 1" THIN_SP_UTF8 "000)");
+        case uVLG:
+            return QString("Micro-TestVLG (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -109,11 +109,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case VPC:
+    case VLG:
         return 100000000;
-    case mVPC:
+    case mVLG:
         return 100000;
-    case uVPC:
+    case uVLG:
         return 100;
     default:
         return 100000000;
@@ -123,11 +123,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case VPC:
+    case VLG:
         return 8;
-    case mVPC:
+    case mVLG:
         return 5;
-    case uVPC:
+    case uVLG:
         return 2;
     default:
         return 0;

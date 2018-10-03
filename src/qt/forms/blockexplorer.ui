@@ -168,7 +168,7 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="../valinorcoin.qrc"/>
+  <include location="../valgardcoin.qrc"/>
  </resources>
  <connections/>
 </ui>

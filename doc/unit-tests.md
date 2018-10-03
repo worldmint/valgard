@@ -6,13 +6,13 @@ and tests weren't explicitly disabled.
 
 After configuring, they can be run with 'make check'.
 
-To run the valinorcoind tests manually, launch src/test/test_valinorcoin .
+To run the valgardcoind tests manually, launch src/test/test_valgardcoin .
 
-To add more valinorcoind tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
+To add more valgardcoind tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
 .cpp files in the test/ directory or add new .cpp files that
 implement new BOOST_AUTO_TEST_SUITE sections.
 
-To run the valinorcoin-qt tests manually, launch src/qt/test/valinorcoin-qt_test
+To run the valgardcoin-qt tests manually, launch src/qt/test/valgardcoin-qt_test
 
-To add more valinorcoin-qt tests, add them to the `src/qt/test/` directory and
+To add more valgardcoin-qt tests, add them to the `src/qt/test/` directory and
 the `src/qt/test/test_main.cpp` file.

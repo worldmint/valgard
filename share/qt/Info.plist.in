@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash Core developers, 2015-@COPYRIGHT_YEAR@ The Valinorcoin Core developers</string>
+  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash Core developers, 2015-@COPYRIGHT_YEAR@ The Valgardcoin Core developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@</string>
@@ -29,10 +29,10 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>ValinorCoin-Qt</string>
+  <string>ValgardCoin-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>io.valinorcoin.Valinorcoin-Qt</string>
+  <string>io.valgardcoin.Valgardcoin-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -40,10 +40,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.valinorcoin.ValinorcoinPayment</string>
+      <string>io.valgardcoin.ValgardcoinPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>valinorcoin</string>
+        <string>valgardcoin</string>
       </array>
     </dict>
   </array>
@@ -52,9 +52,9 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>io.valinorcoin.paymentrequest</string>
+      <string>io.valgardcoin.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Valinorcoin payment request</string>
+      <string>Valgardcoin payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -62,10 +62,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-valinorcoin-payment-request</string>
+        <string>application/x-valgardcoin-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>valinorcoinpaymentrequest</string>
+          <string>valgardcoinpaymentrequest</string>
         </array>
       </dict>
     </dict>
@@ -78,7 +78,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>io.valinorcoin.paymentrequest</string>
+        <string>io.valgardcoin.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

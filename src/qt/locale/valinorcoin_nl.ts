@@ -62,12 +62,12 @@
         <translation>Ontvangstadressen</translation>
     </message>
     <message>
-        <source>These are your ValinorCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw ValinorCoinadressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden.</translation>
+        <source>These are your ValgardCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit zijn uw ValgardCoinadressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden.</translation>
     </message>
     <message>
-        <source>These are your ValinorCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dit zijn uw ValinorCoinadressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
+        <source>These are your ValgardCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dit zijn uw ValgardCoinadressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>ValinorCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VPCs from being stolen by malware infecting your computer.</source>
-        <translation>ValinorCoin zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw VPCs stelen.</translation>
+        <source>ValgardCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VLGs from being stolen by malware infecting your computer.</source>
+        <translation>ValgardCoin zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw VLGs stelen.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Weet u zeker dat u uw portemonnee wilt versleutelen?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VPC&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW VPC VERLIEZEN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VLG&lt;/b&gt;!</source>
+        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW VLG VERLIEZEN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -235,16 +235,16 @@
         <translation>&amp;BIP 38 Versleuteling</translation>
     </message>
     <message>
-        <source>Enter a Valinorcoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Voer een ValinorCoin adres in dat u wilt versleutelen met BIP 38. Voer een wachtwoord in, in het middelste veld. Druk op versleutelen om de versleutelde geheime sleutel te berekenen.</translation>
+        <source>Enter a Valgardcoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Voer een ValgardCoin adres in dat u wilt versleutelen met BIP 38. Voer een wachtwoord in, in het middelste veld. Druk op versleutelen om de versleutelde geheime sleutel te berekenen.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adres:</translation>
     </message>
     <message>
-        <source>The ValinorCoin address to sign the message with</source>
-        <translation>Het ValinorCoin adres om het bericht met te ondertekenen</translation>
+        <source>The ValgardCoin address to sign the message with</source>
+        <translation>Het ValgardCoin adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ValinorCoin address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het ValinorCoin adres bezit</translation>
+        <source>Sign the message to prove you own this ValgardCoin address</source>
+        <translation>Onderteken het bericht om te bewijzen dat u het ValgardCoin adres bezit</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,12 +299,12 @@
         <translation>Voer de BIP 38 versleutelde geheime sleutel in. Voer het wachtwoord in, in het middelste veld. Druk op Ontsleutelen Sleutel om de geheime sleutel te berekenen.  Nadat de geheime sleutel is ontsleuteld, zal het klikken op 'Adres Importeren' de geheime sleutel toevoegen aan de portemonnee.</translation>
     </message>
     <message>
-        <source>The ValinorCoin address the message was signed with</source>
-        <translation>Het ValinorCoin adres waarmee het bericht was ondertekend</translation>
+        <source>The ValgardCoin address the message was signed with</source>
+        <translation>Het ValgardCoin adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ValinorCoin address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde ValinorCoin adres</translation>
+        <source>Verify the message to ensure it was signed with the specified ValgardCoin address</source>
+        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde ValgardCoin adres</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,16 +598,16 @@
         <translation>Tabblad werkbalk</translation>
     </message>
     <message>
-        <source>ValinorCoin Core</source>
-        <translation>ValinorCoin Kern</translation>
+        <source>ValgardCoin Core</source>
+        <translation>ValgardCoin Kern</translation>
     </message>
     <message>
-        <source>Send coins to a ValinorCoin address</source>
-        <translation>Verstuur munten naar een ValinorCoin adres</translation>
+        <source>Send coins to a ValgardCoin address</source>
+        <translation>Verstuur munten naar een ValgardCoin adres</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and valinorcoin: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR-codes en ValinorCoin: URI's)</translation>
+        <source>Request payments (generates QR codes and valgardcoin: URIs)</source>
+        <translation>Vraag betaling aan (genereert QR-codes en ValgardCoin: URI's)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,24 +618,24 @@
         <translation>Bekijk masternodes</translation>
     </message>
     <message>
-        <source>&amp;About ValinorCoin Core</source>
-        <translation>&amp;Over ValinorCoin Kern</translation>
+        <source>&amp;About ValgardCoin Core</source>
+        <translation>&amp;Over ValgardCoin Kern</translation>
     </message>
     <message>
-        <source>Show information about ValinorCoin Core</source>
-        <translation>Toon informatie over ValinorCoin Kern</translation>
+        <source>Show information about ValgardCoin Core</source>
+        <translation>Toon informatie over ValgardCoin Kern</translation>
     </message>
     <message>
-        <source>Modify configuration options for ValinorCoin</source>
-        <translation>Wijzig ValinorCoin configuratie opties</translation>
+        <source>Modify configuration options for ValgardCoin</source>
+        <translation>Wijzig ValgardCoin configuratie opties</translation>
     </message>
     <message>
-        <source>Sign messages with your ValinorCoin addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw ValinorCoin adressen om te bewijzen dat u deze adressen bezit</translation>
+        <source>Sign messages with your ValgardCoin addresses to prove you own them</source>
+        <translation>Onderteken berichten met uw ValgardCoin adressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified ValinorCoin addresses</source>
-        <translation>Controleer berichten om te verifiëren dat deze ondertekend zijn met de gespecificeerde ValinorCoin adressen</translation>
+        <source>Verify messages to ensure they were signed with specified ValgardCoin addresses</source>
+        <translation>Controleer berichten om te verifiëren dat deze ondertekend zijn met de gespecificeerde ValgardCoin adressen</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>Open Masternode configuratiebestand</translation>
     </message>
     <message>
-        <source>Open a ValinorCoin: URI or payment request</source>
-        <translation>Open een ValinorCoin: URI of betaalverzoek</translation>
+        <source>Open a ValgardCoin: URI or payment request</source>
+        <translation>Open een ValgardCoin: URI of betaalverzoek</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Block verkenner venster</translation>
     </message>
     <message>
-        <source>ValinorCoin Core client</source>
-        <translation>ValinorCoin Core client</translation>
+        <source>ValgardCoin Core client</source>
+        <translation>ValgardCoin Core client</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to ValinorCoin network</source>
-        <translation><numerusform>%n actieve connectie(s) naar ValinorCoin netwerk</numerusform><numerusform>%n actieve connectie(s) naar ValinorCoin netwerk</numerusform></translation>
+        <source>%n active connection(s) to ValgardCoin network</source>
+        <translation><numerusform>%n actieve connectie(s) naar ValgardCoin netwerk</numerusform><numerusform>%n actieve connectie(s) naar ValgardCoin netwerk</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -805,8 +805,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (valinorcoin.conf).</source>
-        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (valinorcoin.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (valgardcoin.conf).</source>
+        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (valgardcoin.conf).</translation>
     </message>
 </context>
 <context>
@@ -1010,8 +1010,8 @@ MultiSend: %1</translation>
         <translation>Wijzig verzendadres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid ValinorCoin address.</source>
-        <translation>Het ingevoerde adres: "%1" is geen geldig ValinorCoin adres.</translation>
+        <source>The entered address "%1" is not a valid ValgardCoin address.</source>
+        <translation>Het ingevoerde adres: "%1" is geen geldig ValgardCoin adres.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1040,16 +1040,16 @@ MultiSend: %1</translation>
         <translation>versie</translation>
     </message>
     <message>
-        <source>ValinorCoin Core</source>
-        <translation>ValinorCoin Kern</translation>
+        <source>ValgardCoin Core</source>
+        <translation>ValgardCoin Kern</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About ValinorCoin Core</source>
-        <translation>Over ValinorCoin Core</translation>
+        <source>About ValgardCoin Core</source>
+        <translation>Over ValgardCoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1079,16 +1079,16 @@ MultiSend: %1</translation>
         <translation>Welkom</translation>
     </message>
     <message>
-        <source>Welcome to ValinorCoin Core.</source>
-        <translation>Welkom bij ValinorCoin Core</translation>
+        <source>Welcome to ValgardCoin Core.</source>
+        <translation>Welkom bij ValgardCoin Core</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
         <translation>Gebruik de standaard datafolder </translation>
     </message>
     <message>
-        <source>ValinorCoin Core</source>
-        <translation>ValinorCoin Kern</translation>
+        <source>ValgardCoin Core</source>
+        <translation>ValgardCoin Kern</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1300,24 +1300,24 @@ MultiSend: %1</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start ValinorCoin after logging in to the system.</source>
-        <translation>ValinorCoin automatisch opstarten na inloggen op het systeem.</translation>
+        <source>Automatically start ValgardCoin after logging in to the system.</source>
+        <translation>ValgardCoin automatisch opstarten na inloggen op het systeem.</translation>
     </message>
     <message>
-        <source>&amp;Start ValinorCoin on system login</source>
-        <translation>&amp;ValinorCoin starten bij systeemlogin</translation>
+        <source>&amp;Start ValgardCoin on system login</source>
+        <translation>&amp;ValgardCoin starten bij systeemlogin</translation>
     </message>
     <message>
-        <source>Amount of ValinorCoin to keep anonymized</source>
-        <translation>Hoeveelheid ValinorCoin anoniem te houden</translation>
+        <source>Amount of ValgardCoin to keep anonymized</source>
+        <translation>Hoeveelheid ValgardCoin anoniem te houden</translation>
     </message>
     <message>
         <source>&amp;Network</source>
         <translation>&amp;Netwerk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting ValinorCoin.</source>
-        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van ValinorCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting ValgardCoin.</source>
+        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van ValgardCoin.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1427,8 +1427,8 @@ MultiSend: %1</translation>
         <translation>Status:</translation>
     </message>
     <message>
-        <source>0 VPC / 0 Rounds</source>
-        <translation>0 VPC / 0 Rondes</translation>
+        <source>0 VLG / 0 Rounds</source>
+        <translation>0 VLG / 0 Rondes</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -1512,8 +1512,8 @@ MultiSend: %1</translation>
         <translation>Hoeveelheid</translation>
     </message>
     <message>
-        <source>Enter a ValinorCoin address (e.g. %1)</source>
-        <translation>Voer een ValinorCoin adres in (b.v. %1)</translation>
+        <source>Enter a ValgardCoin address (e.g. %1)</source>
+        <translation>Voer een ValgardCoin adres in (b.v. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1702,8 +1702,8 @@ MultiSend: %1</translation>
         <translation>Uit:</translation>
     </message>
     <message>
-        <source>Welcome to the ValinorCoin RPC console.</source>
-        <translation>Welkom bij de ValinorCoin RPC console.</translation>
+        <source>Welcome to the ValgardCoin RPC console.</source>
+        <translation>Welkom bij de ValgardCoin RPC console.</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -1894,8 +1894,8 @@ MultiSend: %1</translation>
         <translation>Wijzig:</translation>
     </message>
     <message>
-        <source>0 VPC</source>
-        <translation>0 VPC</translation>
+        <source>0 VLG</source>
+        <translation>0 VLG</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2024,8 +2024,8 @@ MultiSend: %1</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>ValinorCoin Core is shutting down...</source>
-        <translation>ValinorCoin Core is aan het afsluiten...</translation>
+        <source>ValgardCoin Core is shutting down...</source>
+        <translation>ValgardCoin Core is aan het afsluiten...</translation>
     </message>
     </context>
 <context>
@@ -2035,8 +2035,8 @@ MultiSend: %1</translation>
         <translation>&amp;Onderteken Bericht</translation>
     </message>
     <message>
-        <source>The ValinorCoin address to sign the message with</source>
-        <translation>Het ValinorCoin adres om het bericht met te ondertekenen</translation>
+        <source>The ValgardCoin address to sign the message with</source>
+        <translation>Het ValgardCoin adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2067,16 +2067,16 @@ MultiSend: %1</translation>
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ValinorCoin address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het ValinorCoin adres bezit</translation>
+        <source>Sign the message to prove you own this ValgardCoin address</source>
+        <translation>Onderteken het bericht om te bewijzen dat u het ValgardCoin adres bezit</translation>
     </message>
     <message>
-        <source>The ValinorCoin address the message was signed with</source>
-        <translation>Het ValinorCoin adres waarmee het bericht was ondertekend</translation>
+        <source>The ValgardCoin address the message was signed with</source>
+        <translation>Het ValgardCoin adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ValinorCoin address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde ValinorCoin adres</translation>
+        <source>Verify the message to ensure it was signed with the specified ValgardCoin address</source>
+        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde ValgardCoin adres</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -2134,8 +2134,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>ValinorCoin Core</source>
-        <translation>ValinorCoin Kern</translation>
+        <source>ValgardCoin Core</source>
+        <translation>ValgardCoin Kern</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2150,8 +2150,8 @@ MultiSend: %1</translation>
         <translation>De Dash Core ontwikkelaars</translation>
     </message>
     <message>
-        <source>The ValinorCoin Core developers</source>
-        <translation>De ValinorCoin Core ontwikkelaars</translation>
+        <source>The ValgardCoin Core developers</source>
+        <translation>De ValgardCoin Core ontwikkelaars</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2482,7 +2482,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>valinorcoin-core</name>
+    <name>valgardcoin-core</name>
     <message>
         <source>(default: %s)</source>
         <translation>(standaard: %s)</translation>
@@ -2504,8 +2504,8 @@ MultiSend: %1</translation>
         <translation>Copyright (C) 2014-%i The Dash Core Ontwikkelaars</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The ValinorCoin Core Developers</source>
-        <translation>Copyright (C) 2015-%i The ValinorCoin Core Ontwikkelaars</translation>
+        <source>Copyright (C) 2015-%i The ValgardCoin Core Developers</source>
+        <translation>Copyright (C) 2015-%i The ValgardCoin Core Ontwikkelaars</translation>
     </message>
     <message>
         <source>Error</source>

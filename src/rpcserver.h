@@ -95,7 +95,7 @@ public:
 };
 
 /**
- * ValinorCoin RPC command dispatcher.
+ * ValgardCoin RPC command dispatcher.
  */
 class CRPCTable
 {

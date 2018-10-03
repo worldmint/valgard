@@ -180,6 +180,6 @@
     </message>
     </context>
 <context>
-    <name>valinorcoin-core</name>
+    <name>valgardcoin-core</name>
     </context>
 </TS>

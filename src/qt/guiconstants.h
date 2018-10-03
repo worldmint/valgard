@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The ValinorCoin developers
+// Copyright (c) 2018 The ValgardCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -14,7 +14,7 @@ static const int MODEL_UPDATE_DELAY = 250;
 /* AskPassphraseDialog -- Maximum passphrase length */
 static const int MAX_PASSPHRASE_SIZE = 1024;
 
-/* Valinorcoin GUI -- Size of icons in status bar */
+/* Valgardcoin GUI -- Size of icons in status bar */
 static const int STATUSBAR_ICONSIZE = 16;
 
 static const bool DEFAULT_SPLASHSCREEN = true;
@@ -49,9 +49,9 @@ static const int MAX_URI_LENGTH = 255;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 35
 
-#define QAPP_ORG_NAME "ValinorCoin"
-#define QAPP_ORG_DOMAIN "valinorcoin.org"
-#define QAPP_APP_NAME_DEFAULT "ValinorCoin-Qt"
-#define QAPP_APP_NAME_TESTNET "ValinorCoin-Qt-testnet"
+#define QAPP_ORG_NAME "ValgardCoin"
+#define QAPP_ORG_DOMAIN "valgardcoin.org"
+#define QAPP_APP_NAME_DEFAULT "ValgardCoin-Qt"
+#define QAPP_APP_NAME_TESTNET "ValgardCoin-Qt-testnet"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H

@@ -44,7 +44,7 @@ public:
         DatabaseCache,       // int
         SpendZeroConfChange, // bool
         ObfuscationRounds,   // int
-        AnonymizeValinorcoinAmount, //int
+        AnonymizeValgardcoinAmount, //int
         ShowMasternodesTab,  // bool
         Listen,              // bool
         OptionIDRowCount,
@@ -90,7 +90,7 @@ private:
 signals:
     void displayUnitChanged(int unit);
     void obfuscationRoundsChanged(int);
-    void anonymizeValinorcoinAmountChanged(int);
+    void anonymizeValgardcoinAmountChanged(int);
     void coinControlFeaturesChanged(bool);
 };
 

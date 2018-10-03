@@ -164,8 +164,8 @@
         <translation>Estàs segur que vols encriptar el moneder?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VPC&lt;/b&gt;!</source>
-        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES VPCS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VLG&lt;/b&gt;!</source>
+        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES VLGS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -354,12 +354,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>ValinorCoin Core</source>
-        <translation>ValinorCoin Core</translation>
+        <source>ValgardCoin Core</source>
+        <translation>ValgardCoin Core</translation>
     </message>
     <message>
-        <source>&amp;About ValinorCoin Core</source>
-        <translation>&amp;Sobre ValinorCoin Core</translation>
+        <source>&amp;About ValgardCoin Core</source>
+        <translation>&amp;Sobre ValgardCoin Core</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -552,12 +552,12 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>ValinorCoin Core</source>
-        <translation>ValinorCoin Core</translation>
+        <source>ValgardCoin Core</source>
+        <translation>ValgardCoin Core</translation>
     </message>
     <message>
-        <source>About ValinorCoin Core</source>
-        <translation>Sobre ValinorCoin Core</translation>
+        <source>About ValgardCoin Core</source>
+        <translation>Sobre ValgardCoin Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -575,12 +575,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to ValinorCoin Core.</source>
-        <translation>Benvingut a ValinorCoin Core.</translation>
+        <source>Welcome to ValgardCoin Core.</source>
+        <translation>Benvingut a ValgardCoin Core.</translation>
     </message>
     <message>
-        <source>ValinorCoin Core</source>
-        <translation>ValinorCoin Core</translation>
+        <source>ValgardCoin Core</source>
+        <translation>ValgardCoin Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1132,8 +1132,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>ValinorCoin Core</source>
-        <translation>ValinorCoin Core</translation>
+        <source>ValgardCoin Core</source>
+        <translation>ValgardCoin Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1292,7 +1292,7 @@
     </message>
     </context>
 <context>
-    <name>valinorcoin-core</name>
+    <name>valgardcoin-core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>

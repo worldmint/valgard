@@ -148,8 +148,8 @@
         <translation>Czy na pewno chcesz zakodować portfel?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VPC&lt;/b&gt;!</source>
-        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE VPC!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VLG&lt;/b&gt;!</source>
+        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE VLG!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -227,8 +227,8 @@
         <translation>Zakodowany klucz:</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ValinorCoin address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres ValinorCoin jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this ValgardCoin address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres ValgardCoin jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -518,16 +518,16 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>ValinorCoin Core</source>
+        <source>ValgardCoin Core</source>
         <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     <message>
-        <source>Send coins to a ValinorCoin address</source>
-        <translation>Wyślij monety do adresu ValinorCoin</translation>
+        <source>Send coins to a ValgardCoin address</source>
+        <translation>Wyślij monety do adresu ValgardCoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and valinorcoin: URIs)</source>
-        <translation>Zarządaj płatności (generuje kod QR i valinorcoin:URI)</translation>
+        <source>Request payments (generates QR codes and valgardcoin: URIs)</source>
+        <translation>Zarządaj płatności (generuje kod QR i valgardcoin:URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -538,24 +538,24 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About ValinorCoin Core</source>
+        <source>&amp;About ValgardCoin Core</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about ValinorCoin Core</source>
+        <source>Show information about ValgardCoin Core</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Modify configuration options for ValinorCoin</source>
-        <translation>Modyfikuj opcje konfiguracji ValinorCoin</translation>
+        <source>Modify configuration options for ValgardCoin</source>
+        <translation>Modyfikuj opcje konfiguracji ValgardCoin</translation>
     </message>
     <message>
-        <source>Sign messages with your ValinorCoin addresses to prove you own them</source>
-        <translation>Zatwierdź wiadomość z twoimi adresami ValinorCoin, by udowodnić, że jesteś w ich posiadaniu</translation>
+        <source>Sign messages with your ValgardCoin addresses to prove you own them</source>
+        <translation>Zatwierdź wiadomość z twoimi adresami ValgardCoin, by udowodnić, że jesteś w ich posiadaniu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified ValinorCoin addresses</source>
-        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu ValinorCoin</translation>
+        <source>Verify messages to ensure they were signed with specified ValgardCoin addresses</source>
+        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu ValgardCoin</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -582,8 +582,8 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a ValinorCoin: URI or payment request</source>
-        <translation>Otwórz ValinorCoin: URI i żądanie zapłaty</translation>
+        <source>Open a ValgardCoin: URI or payment request</source>
+        <translation>Otwórz ValgardCoin: URI i żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -594,12 +594,12 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the ValinorCoin Core help message to get a list with possible ValinorCoin command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia ValinorCoin, aby dostać listę możliwych opcji ValinorCoin command-line</translation>
+        <source>Show the ValgardCoin Core help message to get a list with possible ValgardCoin command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia ValgardCoin, aby dostać listę możliwych opcji ValgardCoin command-line</translation>
     </message>
     <message>
-        <source>ValinorCoin Core client</source>
-        <translation>Rdzeń ValinorCoin klient</translation>
+        <source>ValgardCoin Core client</source>
+        <translation>Rdzeń ValgardCoin klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -916,7 +916,7 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>ValinorCoin Core</source>
+        <source>ValgardCoin Core</source>
         <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     </context>
@@ -931,7 +931,7 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>ValinorCoin Core</source>
+        <source>ValgardCoin Core</source>
         <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     <message>
@@ -1192,16 +1192,16 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Zezwól na przychodzące połączenia</translation>
     </message>
     <message>
-        <source>Automatically start ValinorCoin after logging in to the system.</source>
-        <translation>Automatycznie uruchom ValinorCoin po zalogowaniu do systemu</translation>
+        <source>Automatically start ValgardCoin after logging in to the system.</source>
+        <translation>Automatycznie uruchom ValgardCoin po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start ValinorCoin on system login</source>
-        <translation>&amp;Uruchom ValinorCoin podczas logowania do systemu</translation>
+        <source>&amp;Start ValgardCoin on system login</source>
+        <translation>&amp;Uruchom ValgardCoin podczas logowania do systemu</translation>
     </message>
     <message>
-        <source>Amount of ValinorCoin to keep anonymized</source>
-        <translation>Liczba ValinorCoin do anonimizacji</translation>
+        <source>Amount of ValgardCoin to keep anonymized</source>
+        <translation>Liczba ValgardCoin do anonimizacji</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1220,18 +1220,18 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting ValinorCoin.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie ValinorCoin</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting ValgardCoin.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie ValgardCoin</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations</source>
+https://www.transifex.com/valgardcoin-project/valgardcoin-project-translations</source>
         <translation>Brakuje języka bądź nieukończona pełnego tłumaczenia? Pomóż w tłumaczeniu tutaj:
-https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations </translation>
+https://www.transifex.com/valgardcoin-project/valgardcoin-project-translations </translation>
     </message>
     <message>
-        <source>Connect to the ValinorCoin network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią ValinorCoin poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the ValgardCoin network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią ValgardCoin poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1373,7 +1373,7 @@ https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations <
         <translation>Status:</translation>
     </message>
     <message>
-        <source>0 VPC / 0 Rounds</source>
+        <source>0 VLG / 0 Rounds</source>
         <translation>0 OIVX / 0 Rund</translation>
     </message>
     <message>
@@ -1458,8 +1458,8 @@ https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations <
         <translation>Liczba</translation>
     </message>
     <message>
-        <source>Enter a ValinorCoin address (e.g. %1)</source>
-        <translation>Wprowadź adres ValinorCoin (np. %1)</translation>
+        <source>Enter a ValgardCoin address (e.g. %1)</source>
+        <translation>Wprowadź adres ValgardCoin (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1897,8 +1897,8 @@ https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations <
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ValinorCoin address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres ValinorCoin jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this ValgardCoin address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres ValgardCoin jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1932,7 +1932,7 @@ https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations <
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>ValinorCoin Core</source>
+        <source>ValgardCoin Core</source>
         <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     </context>
@@ -2024,7 +2024,7 @@ https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations <
     </message>
     </context>
 <context>
-    <name>valinorcoin-core</name>
+    <name>valgardcoin-core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>

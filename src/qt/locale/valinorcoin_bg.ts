@@ -62,12 +62,12 @@
         <translation>Получаващ адрес</translation>
     </message>
     <message>
-        <source>These are your ValinorCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Това са вашите ValinorCoin адреси за изпращане на плащания. Винаги проверявайте количеството и адреса на получателя, преди да изпратите монети.</translation>
+        <source>These are your ValgardCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Това са вашите ValgardCoin адреси за изпращане на плащания. Винаги проверявайте количеството и адреса на получателя, преди да изпратите монети.</translation>
     </message>
     <message>
-        <source>These are your ValinorCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Това са вашите ValinorCoin адреси за получаване на плащания. Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
+        <source>These are your ValgardCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Това са вашите ValgardCoin адреси за получаване на плащания. Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,16 +168,16 @@
         <translation>Потвърдете криптирането на портфейла</translation>
     </message>
     <message>
-        <source>ValinorCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VPCs from being stolen by malware infecting your computer.</source>
-        <translation>ValinorCoin сега ще се затвори, за да довърши процеса на криптиране. Запомнете, че криптирането на вашия портфейл не може напълно да защити вашия ValinorCoin от това, да бъде откраднат от злонамерен софутуер, инфектирал вашия компютър.</translation>
+        <source>ValgardCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VLGs from being stolen by malware infecting your computer.</source>
+        <translation>ValgardCoin сега ще се затвори, за да довърши процеса на криптиране. Запомнете, че криптирането на вашия портфейл не може напълно да защити вашия ValgardCoin от това, да бъде откраднат от злонамерен софутуер, инфектирал вашия компютър.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Сигурни ли сте, че искате да криптирате вашия портфейл?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VPC&lt;/b&gt;!</source>
-        <translation>&lt;b&gt;Внимание: Ако криптирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ VPC&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VLG&lt;/b&gt;!</source>
+        <translation>&lt;b&gt;Внимание: Ако криптирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ VLG&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -231,16 +231,16 @@
         <translation>&amp;BIP 38 криптиране</translation>
     </message>
     <message>
-        <source>Enter a Valinorcoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Въведете Valinorcoin адрес, който искате да криптиране с BIP 38. Въведете парола в средното поле. Натиснете 'криптирай', за да се изчисли криптирания частен ключ.</translation>
+        <source>Enter a Valgardcoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Въведете Valgardcoin адрес, който искате да криптиране с BIP 38. Въведете парола в средното поле. Натиснете 'криптирай', за да се изчисли криптирания частен ключ.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>The ValinorCoin address to sign the message with</source>
-        <translation>ValinorCoin адреса, с който да подпишете съобщението</translation>
+        <source>The ValgardCoin address to sign the message with</source>
+        <translation>ValgardCoin адреса, с който да подпишете съобщението</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -271,8 +271,8 @@
         <translation>Копирай сегашния подпис в системния буфер</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ValinorCoin address</source>
-        <translation>Подпишете съобщението, за да докажете, че притежавате този ValinorCoin адрес</translation>
+        <source>Sign the message to prove you own this ValgardCoin address</source>
+        <translation>Подпишете съобщението, за да докажете, че притежавате този ValgardCoin адрес</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -413,8 +413,8 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The ValinorCoin address to sign the message with</source>
-        <translation>ValinorCoin адреса, с който да подпишете съобщението</translation>
+        <source>The ValgardCoin address to sign the message with</source>
+        <translation>ValgardCoin адреса, с който да подпишете съобщението</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -437,8 +437,8 @@
         <translation>Копирай сегашния подпис в системния буфер</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ValinorCoin address</source>
-        <translation>Подпишете съобщението, за да докажете, че притежавате този ValinorCoin адрес</translation>
+        <source>Sign the message to prove you own this ValgardCoin address</source>
+        <translation>Подпишете съобщението, за да докажете, че притежавате този ValgardCoin адрес</translation>
     </message>
     </context>
 <context>
@@ -500,6 +500,6 @@
     </message>
     </context>
 <context>
-    <name>valinorcoin-core</name>
+    <name>valgardcoin-core</name>
     </context>
 </TS>

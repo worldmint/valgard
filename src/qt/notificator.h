@@ -6,7 +6,7 @@
 #define BITCOIN_QT_NOTIFICATOR_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/valinorcoin-config.h"
+#include "config/valgardcoin-config.h"
 #endif
 
 #include <QIcon>

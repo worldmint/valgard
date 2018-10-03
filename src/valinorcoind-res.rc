@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "ValinorCoin"
-            VALUE "FileDescription",    "valinorcoind (OSS daemon/client for Valinorcoin)"
+            VALUE "CompanyName",        "ValgardCoin"
+            VALUE "FileDescription",    "valgardcoind (OSS daemon/client for Valgardcoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "valinorcoind"
+            VALUE "InternalName",       "valgardcoind"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "valinorcoind.exe"
-            VALUE "ProductName",        "valinorcoind"
+            VALUE "OriginalFilename",   "valgardcoind.exe"
+            VALUE "ProductName",        "valgardcoind"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

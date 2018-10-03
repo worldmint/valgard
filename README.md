@@ -1,12 +1,12 @@
-ValinorCoin (fork of PIVX) integration/staging repository
+ValgardCoin (fork of PIVX) integration/staging repository
 ======================================
 
 
-It is recommended [use the shell script](https://github.com/vpcproject/vpcinstall) to install a ValinorCoin Masternode on a Linux server running Ubuntu 14.04 or 16.04
+It is recommended [use the shell script](https://github.com/worldmint/vpcinstall) to install a ValgardCoin Masternode on a Linux server running Ubuntu 14.04 or 16.04
 
 ***
 
-Quick installation of the ValinorCoin daemon under linux. See detailed instructions there [build-unix.md](build-unix.md)
+Quick installation of the ValgardCoin daemon under linux. See detailed instructions there [build-unix.md](build-unix.md)
 
 Installation of libraries (using root user):
 
@@ -19,34 +19,34 @@ Installation of libraries (using root user):
 Cloning the repository and compiling (use any user with the sudo group):
 
     cd
-    git clone https://github.com/vpcproject/ValinorCoin.git
-    cd ValinorCoin
+    git clone https://github.com/worldmint/valgard.git
+    cd ValgardCoin
     ./autogen.sh
     ./configure
     sudo make install
     cd src
-    sudo strip valinorcoind
-    sudo strip valinorcoin-cli
-    sudo strip valinorcoin-tx
+    sudo strip valgardcoind
+    sudo strip valgardcoin-cli
+    sudo strip valgardcoin-tx
     cd ..
 
 Running the daemon:
 
-    valinorcoind 
+    valgardcoind 
 
 Stopping the daemon:
 
-    valinorcoin-cli stop
+    valgardcoin-cli stop
 
 Demon status:
 
-    valinorcoin-cli getinfo
-    valinorcoin-cli mnsync status
+    valgardcoin-cli getinfo
+    valgardcoin-cli mnsync status
 
 All binaries for different operating systems, you can download in the releases repository:
 
-https://github.com/vpcproject/ValinorCoin/releases
+https://github.com/worldmint/valgard/releases
 
-P2P port: 39777, RPC port: 39778
+P2P port: 39397, RPC port: 39398
 -
 Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.

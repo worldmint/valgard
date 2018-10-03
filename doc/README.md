@@ -1,39 +1,39 @@
-ValinorCoin Core
+ValgardCoin Core
 =====================
 
 Setup
 ---------------------
-[ValinorCoin Core](http://valinorcoin.org/wallet) is the original ValinorCoin client and it builds the backbone of the network. However, it downloads and stores the entire history of ValinorCoin transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[ValgardCoin Core](http://valgardcoin.org/wallet) is the original ValgardCoin client and it builds the backbone of the network. However, it downloads and stores the entire history of ValgardCoin transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
-The following are some helpful notes on how to run ValinorCoin on your native platform.
+The following are some helpful notes on how to run ValgardCoin on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- bin/32/valinorcoin-qt (GUI, 32-bit) or bin/32/valinorcoind (headless, 32-bit)
-- bin/64/valinorcoin-qt (GUI, 64-bit) or bin/64/valinorcoind (headless, 64-bit)
+- bin/32/valgardcoin-qt (GUI, 32-bit) or bin/32/valgardcoind (headless, 32-bit)
+- bin/64/valgardcoin-qt (GUI, 64-bit) or bin/64/valgardcoind (headless, 64-bit)
 
 ### Windows
 
-Unpack the files into a directory, and then run valinorcoin-qt.exe.
+Unpack the files into a directory, and then run valgardcoin-qt.exe.
 
 ### OSX
 
-Drag ValinorCoin-Qt to your applications folder, and then run ValinorCoin-Qt.
+Drag ValgardCoin-Qt to your applications folder, and then run ValgardCoin-Qt.
 
 ### Need Help?
 
-* See the documentation at the [ValinorCoin Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
+* See the documentation at the [ValgardCoin Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [ValinorCoin Forum](http://forum.valinorcoin.org/).
-* Join one of our Slack groups [ValinorCoin Slack Groups](https://valinorcoin.org/slack-logins/).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [ValgardCoin Forum](http://forum.valgardcoin.org/).
+* Join one of our Slack groups [ValgardCoin Slack Groups](https://valgardcoin.org/slack-logins/).
 
 Building
 ---------------------
-The following are developer notes on how to build ValinorCoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build ValgardCoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OSX Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -41,7 +41,7 @@ The following are developer notes on how to build ValinorCoin on your native pla
 
 Development
 ---------------------
-The Valinorcoin repo's [root README](https://github.com/ValinorCoin-Project/ValinorCoin/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Valgardcoin repo's [root README](https://github.com/ValgardCoin-Project/ValgardCoin/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -55,8 +55,8 @@ The Valinorcoin repo's [root README](https://github.com/ValinorCoin-Project/Vali
 
 ### Resources
 
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [ValinorCoin](http://forum.valinorcoin.org/) forum.
-* Join the [ValinorCoin-Dev](https://valinorcoin-dev.slack.com/) Slack group ([Sign-Up](https://valinorcoin-dev.herokuapp.com/)).
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [ValgardCoin](http://forum.valgardcoin.org/) forum.
+* Join the [ValgardCoin-Dev](https://valgardcoin-dev.slack.com/) Slack group ([Sign-Up](https://valgardcoin-dev.herokuapp.com/)).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

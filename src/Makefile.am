@@ -64,15 +64,15 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += valinorcoind
+  bin_PROGRAMS += valgardcoind
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += valinorcoin-cli valinorcoin-tx
+  bin_PROGRAMS += valgardcoin-cli valgardcoin-tx
 endif
 
 .PHONY: FORCE
-# valinorcoin core #
+# valgardcoin core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   addrman.h \
@@ -180,7 +180,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between valinorcoind and valinorcoin-qt
+# server: shared between valgardcoind and valgardcoin-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -224,7 +224,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between valinorcoind and valinorcoin-qt, but only linked
+# wallet: shared between valgardcoind and valgardcoin-qt, but only linked
 # when wallet enabled
 
 libbitcoin_wallet_a_CFLAGS = -fPIC
@@ -295,7 +295,7 @@ univalue_libbitcoin_univalue_a_SOURCES = \
   univalue/univalue_escapes.h \
   univalue/univalue.h
 
-# common: shared between valinorcoind, and valinorcoin-qt and non-server tools
+# common: shared between valgardcoind, and valgardcoin-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   allocators.cpp \
@@ -351,7 +351,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between valinorcoin-cli and valinorcoin-qt
+# cli: shared between valgardcoin-cli and valgardcoin-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -361,7 +361,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-valinorcoind_LDADD = \
+valgardcoind_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
@@ -372,40 +372,40 @@ valinorcoind_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-valinorcoind_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+valgardcoind_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-valinorcoind_LDADD += libbitcoin_wallet.a
+valgardcoind_LDADD += libbitcoin_wallet.a
 endif
-valinorcoind_SOURCES = valinorcoind.cpp
+valgardcoind_SOURCES = valgardcoind.cpp
 #
 
 if TARGET_WINDOWS
-valinorcoind_SOURCES += valinorcoind-res.rc
+valgardcoind_SOURCES += valgardcoind-res.rc
 endif
 
-valinorcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
-valinorcoind_CPPFLAGS = $(BITCOIN_INCLUDES)
-valinorcoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+valgardcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
+valgardcoind_CPPFLAGS = $(BITCOIN_INCLUDES)
+valgardcoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
-# valinorcoin-cli binary #
-valinorcoin_cli_LDADD = \
+# valgardcoin-cli binary #
+valgardcoin_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL) \
   $(BOOST_LIBS) \
   $(SSL_LIBS) \
   $(CRYPTO_LIBS)
 
-valinorcoin_cli_SOURCES = \
-  valinorcoin-cli.cpp
+valgardcoin_cli_SOURCES = \
+  valgardcoin-cli.cpp
 
-valinorcoin_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
+valgardcoin_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
 
-# valinorcoin-tx binary #
-valinorcoin_tx_LDADD = \
+# valgardcoin-tx binary #
+valgardcoin_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -414,15 +414,15 @@ valinorcoin_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-valinorcoin_tx_SOURCES = valinorcoin-tx.cpp
-valinorcoin_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+valgardcoin_tx_SOURCES = valgardcoin-tx.cpp
+valgardcoin_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-valinorcoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+valgardcoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-valinorcoin_cli_SOURCES += valinorcoin-cli-res.rc
+valgardcoin_cli_SOURCES += valgardcoin-cli-res.rc
 endif
-valinorcoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+valgardcoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

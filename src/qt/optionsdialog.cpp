@@ -3,7 +3,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/valinorcoin-config.h"
+#include "config/valgardcoin-config.h"
 #endif
 
 #include "optionsdialog.h"
@@ -213,7 +213,7 @@ void OptionsDialog::setMapper()
 
     /* Obfuscation Rounds */
     mapper->addMapping(ui->obfuscationRounds, OptionsModel::ObfuscationRounds);
-    mapper->addMapping(ui->anonymizeValinorcoin, OptionsModel::AnonymizeValinorcoinAmount);
+    mapper->addMapping(ui->anonymizeValgardcoin, OptionsModel::AnonymizeValgardcoinAmount);
     mapper->addMapping(ui->showMasternodesTab, OptionsModel::ShowMasternodesTab);
 }
 

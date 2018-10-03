@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The ValinorCoin developers
+// Copyright (c) 2018 The ValgardCoin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -96,16 +96,16 @@ public:
         pchMessageStart[2] = 0x6c;
         pchMessageStart[3] = 0x3b;
         vAlertPubKey = ParseHex("041babfe7f012d2a85edac110ebdfaff0f4c5fdea78ec811703d921de824d5979eea2aea703b15bda37c7add3248fb85f89a5c45cfafe85b78af33905613a95a52");
-        nDefaultPort = 39777;
-        bnProofOfWorkLimit = ~uint256(0) >> 20; // ValinorCoin starting difficulty is 1 / 2^12
+        nDefaultPort = 39397;
+        bnProofOfWorkLimit = ~uint256(0) >> 20; // ValgardCoin starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // ValinorCoin: 1 day
-        nTargetSpacing = 1 * 60;  // ValinorCoin: 1 minute
+        nTargetTimespan = 1 * 60; // ValgardCoin: 1 day
+        nTargetSpacing = 1 * 60;  // ValgardCoin: 1 minute
         nLastPOWBlock = 300;
         nMaturity = 50;
         nMasternodeCountDrift = 20;
@@ -123,7 +123,7 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "Valinorcoin is a coin for an economic gaming system built on a chain of blocks!";
+        const char* pszTimestamp = "Valgardcoin is a coin for an economic gaming system built on a chain of blocks!";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -194,13 +194,13 @@ public:
         pchMessageStart[2] = 0x23;
         pchMessageStart[3] = 0x7f;
         vAlertPubKey = ParseHex("04d34163a727480c3e094f181975a3491873fdbfe689044480faa5f684731403a85434736aaa45c60093ab79eb9a7d72cb27461416dc8c837e7ea7a83ede23f3bd");
-        nDefaultPort = 39775;
+        nDefaultPort = 39395;
         nEnforceBlockUpgradeMajority = 51;
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // ValinorCoin: 1 day
-        nTargetSpacing = 1 * 60;  // ValinorCoin: 1 minute
+        nTargetTimespan = 1 * 60; // ValgardCoin: 1 day
+        nTargetSpacing = 1 * 60;  // ValgardCoin: 1 minute
         nLastPOWBlock = 200;
         nMaturity = 15;
         nMasternodeCountDrift = 4;
@@ -221,14 +221,14 @@ public:
         vSeeds.push_back(CDNSSeedData("80.211.202.181", "80.211.202.181"));         // Single node address
         vSeeds.push_back(CDNSSeedData("94.177.187.54", "94.177.187.54"));           // Single node address
 */
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet valinorcoin addresses start with 'x' or 'y'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet valinorcoin script addresses start with '8' or '9'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet valgardcoin addresses start with 'x' or 'y'
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet valgardcoin script addresses start with '8' or '9'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 239);     // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
-        // Testnet valinorcoin BIP32 pubkeys start with 'DRKV'
+        // Testnet valgardcoin BIP32 pubkeys start with 'DRKV'
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x3a)(0x80)(0x61)(0xa0).convert_to_container<std::vector<unsigned char> >();
-        // Testnet valinorcoin BIP32 prvkeys start with 'DRKP'
+        // Testnet valgardcoin BIP32 prvkeys start with 'DRKP'
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x3a)(0x80)(0x58)(0x37).convert_to_container<std::vector<unsigned char> >();
-        // Testnet valinorcoin BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet valgardcoin BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
 
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
@@ -274,15 +274,15 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 1;
-        nTargetTimespan = 24 * 60 * 60; // ValinorCoin: 1 day
-        nTargetSpacing = 1 * 60;        // ValinorCoin: 1 minutes
+        nTargetTimespan = 24 * 60 * 60; // ValgardCoin: 1 day
+        nTargetSpacing = 1 * 60;        // ValgardCoin: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1537376400;
         genesis.nBits = 0x207fffff;
         genesis.nNonce = 906460;
 
         hashGenesisBlock = genesis.GetHash();
-        nDefaultPort = 39773;
+        nDefaultPort = 39393;
         assert(hashGenesisBlock == uint256("970bcc07e0ed32e50e1e7a77e0b8d17720398f23c1a27d7fd073b096818d81ae"));
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
@@ -313,7 +313,7 @@ public:
     {
         networkID = CBaseChainParams::UNITTEST;
         strNetworkID = "unittest";
-        nDefaultPort = 39771;
+        nDefaultPort = 39391;
         vFixedSeeds.clear(); //! Unit test mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Unit test mode doesn't have any DNS seeds.
 

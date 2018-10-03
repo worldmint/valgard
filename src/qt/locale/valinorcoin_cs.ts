@@ -62,12 +62,12 @@
         <translation>Adresy pro přijetí peněz</translation>
     </message>
     <message>
-        <source>These are your ValinorCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto jsou Vaše ValinorCoin adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
+        <source>These are your ValgardCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto jsou Vaše ValgardCoin adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
     </message>
     <message>
-        <source>These are your ValinorCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto jsou Vaše ValinorCoin adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
+        <source>These are your ValgardCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto jsou Vaše ValgardCoin adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
-        <source>ValinorCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VPCs from being stolen by malware infecting your computer.</source>
-        <translation>ValinorCoin se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše VPCy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+        <source>ValgardCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VLGs from being stolen by malware infecting your computer.</source>
+        <translation>ValgardCoin se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše VLGy před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Opravdu chcete zašifrovat Vaši peněženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VPC&lt;/b&gt;!</source>
-        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE VPCy&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VLG&lt;/b&gt;!</source>
+        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE VLGy&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Šifrovat</translation>
     </message>
     <message>
-        <source>Enter a Valinorcoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadejte ValinorCoin adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
+        <source>Enter a Valgardcoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Zadejte ValgardCoin adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The ValinorCoin address to sign the message with</source>
-        <translation>ValinorCoin adresa pro podepsání zprávy</translation>
+        <source>The ValgardCoin address to sign the message with</source>
+        <translation>ValgardCoin adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ValinorCoin address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto ValinorCoin adresu</translation>
+        <source>Sign the message to prove you own this ValgardCoin address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto ValgardCoin adresu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Vložte BIP 38 šifrovaný privítní klíc. Frázové heslo vložte do prostředního boxu. Kliknětě na Dešifrovat Klíč pro výpočet privátního klíče. Poté co bude klíč dešifrován, kliknutím na 'Importovat Adresu' přidáte privátní klíč do Vaší peněženky.</translation>
     </message>
     <message>
-        <source>The ValinorCoin address the message was signed with</source>
-        <translation>ValinorCoin adresa zprávy byla podpsána</translation>
+        <source>The ValgardCoin address the message was signed with</source>
+        <translation>ValgardCoin adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ValinorCoin address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou ValinorCoin adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified ValgardCoin address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou ValgardCoin adresou</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,16 +598,16 @@
         <translation>Nástrojová lišta záložek</translation>
     </message>
     <message>
-        <source>ValinorCoin Core</source>
-        <translation>ValinorCoin Core</translation>
+        <source>ValgardCoin Core</source>
+        <translation>ValgardCoin Core</translation>
     </message>
     <message>
-        <source>Send coins to a ValinorCoin address</source>
-        <translation>Odeslat platbuna ValinorCoin adresu</translation>
+        <source>Send coins to a ValgardCoin address</source>
+        <translation>Odeslat platbuna ValgardCoin adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and valinorcoin: URIs)</source>
-        <translation>Vyžádat platbu (generování QK kódu a valinorcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and valgardcoin: URIs)</source>
+        <translation>Vyžádat platbu (generování QK kódu a valgardcoin: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,24 +618,24 @@
         <translation>Procházet masternody</translation>
     </message>
     <message>
-        <source>&amp;About ValinorCoin Core</source>
-        <translation>&amp;O ValinorCoin Core</translation>
+        <source>&amp;About ValgardCoin Core</source>
+        <translation>&amp;O ValgardCoin Core</translation>
     </message>
     <message>
-        <source>Show information about ValinorCoin Core</source>
-        <translation>Zobraz informace o ValinorCoin Core</translation>
+        <source>Show information about ValgardCoin Core</source>
+        <translation>Zobraz informace o ValgardCoin Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for ValinorCoin</source>
-        <translation>Upravit možnosti konfigurace pro ValinorCoin</translation>
+        <source>Modify configuration options for ValgardCoin</source>
+        <translation>Upravit možnosti konfigurace pro ValgardCoin</translation>
     </message>
     <message>
-        <source>Sign messages with your ValinorCoin addresses to prove you own them</source>
-        <translation>Podepsat zprávy Vaší ValinorCoin adresou pro prokázaní, že jste jejich vlastníkem</translation>
+        <source>Sign messages with your ValgardCoin addresses to prove you own them</source>
+        <translation>Podepsat zprávy Vaší ValgardCoin adresou pro prokázaní, že jste jejich vlastníkem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified ValinorCoin addresses</source>
-        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými ValinorCoin adresami</translation>
+        <source>Verify messages to ensure they were signed with specified ValgardCoin addresses</source>
+        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými ValgardCoin adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>Otevřít Masternodový konfigurační soubor</translation>
     </message>
     <message>
-        <source>Open a ValinorCoin: URI or payment request</source>
-        <translation>Otevřít ValinorCoin: URI nebo platební žádost</translation>
+        <source>Open a ValgardCoin: URI or payment request</source>
+        <translation>Otevřít ValgardCoin: URI nebo platební žádost</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Okno blokového průzkumníka</translation>
     </message>
     <message>
-        <source>Show the ValinorCoin Core help message to get a list with possible ValinorCoin command-line options</source>
-        <translation>Zobrazit ValinorCoin Core pomocnou zpráv pro získání seznamu možných parametrů ValinorCoin pro příkazy do příkazové řádky</translation>
+        <source>Show the ValgardCoin Core help message to get a list with possible ValgardCoin command-line options</source>
+        <translation>Zobrazit ValgardCoin Core pomocnou zpráv pro získání seznamu možných parametrů ValgardCoin pro příkazy do příkazové řádky</translation>
     </message>
     <message>
-        <source>ValinorCoin Core client</source>
-        <translation>ValinorCoin Core klient</translation>
+        <source>ValgardCoin Core client</source>
+        <translation>ValgardCoin Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -809,8 +809,8 @@ MultiSend: %1</translation>
         <translation>TextPopisku</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (valinorcoin.conf).</source>
-        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (valinorcoin.conf) txindex=1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (valgardcoin.conf).</source>
+        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (valgardcoin.conf) txindex=1.</translation>
     </message>
 </context>
 <context>
@@ -1070,8 +1070,8 @@ MultiSend: %1</translation>
         <translation>Upravit adresu k odeslání platby</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid ValinorCoin address.</source>
-        <translation>Zadaná adresa "%1" není validní ValinorCoin adresa.</translation>
+        <source>The entered address "%1" is not a valid ValgardCoin address.</source>
+        <translation>Zadaná adresa "%1" není validní ValgardCoin adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1116,12 +1116,12 @@ MultiSend: %1</translation>
         <translation>verze</translation>
     </message>
     <message>
-        <source>ValinorCoin Core</source>
-        <translation>ValinorCoin Core</translation>
+        <source>ValgardCoin Core</source>
+        <translation>ValgardCoin Core</translation>
     </message>
     <message>
-        <source>About ValinorCoin Core</source>
-        <translation>O ValinorCoin Core</translation>
+        <source>About ValgardCoin Core</source>
+        <translation>O ValgardCoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1155,16 +1155,16 @@ MultiSend: %1</translation>
         <translation>Vítejte</translation>
     </message>
     <message>
-        <source>Welcome to ValinorCoin Core.</source>
-        <translation>Vítejte v ValinorCoin Core.</translation>
+        <source>Welcome to ValgardCoin Core.</source>
+        <translation>Vítejte v ValgardCoin Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where ValinorCoin Core will store its data.</source>
-        <translation>Při prvním spuštění programu si můžete vybrat, kam bude ValinorCoin Core ukládat svá data.</translation>
+        <source>As this is the first time the program is launched, you can choose where ValgardCoin Core will store its data.</source>
+        <translation>Při prvním spuštění programu si můžete vybrat, kam bude ValgardCoin Core ukládat svá data.</translation>
     </message>
     <message>
-        <source>ValinorCoin Core will download and store a copy of the ValinorCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>ValinorCoin Core stáhne a uloží kopii ValinorCoin blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
+        <source>ValgardCoin Core will download and store a copy of the ValgardCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>ValgardCoin Core stáhne a uloží kopii ValgardCoin blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1175,8 +1175,8 @@ MultiSend: %1</translation>
         <translation>Použít vlastní složku pro data</translation>
     </message>
     <message>
-        <source>ValinorCoin Core</source>
-        <translation>ValinorCoin Core</translation>
+        <source>ValgardCoin Core</source>
+        <translation>ValgardCoin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1442,24 +1442,24 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Vyberte úrpvěň ochrany soukromí</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 VPC</source>
-        <translation>Použí 2 oddělené masternody k promíchání prostředků až do 10000 VPC</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 VLG</source>
+        <translation>Použí 2 oddělené masternody k promíchání prostředků až do 10000 VLG</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Použít 16 oddělených masternodů</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 VPC to anonymize 10000 VPC</source>
-        <translation>Tato možnost je nejrychleší a bude stát zhruba ~0.025 VPC pro anonymizaci 10000 VPC</translation>
+        <source>This option is the quickest and will cost about ~0.025 VLG to anonymize 10000 VLG</source>
+        <translation>Tato možnost je nejrychleší a bude stát zhruba ~0.025 VLG pro anonymizaci 10000 VLG</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Toto je nejpomalejší a nejvíce bezpečná volba. Použití maximalní anonymity bude stát</translation>
     </message>
     <message>
-        <source>0.1 VPC per 10000 VPC you anonymize.</source>
-        <translation>0.1 VPC za 10000 VPC anonymizujete.</translation>
+        <source>0.1 VLG per 10000 VLG you anonymize.</source>
+        <translation>0.1 VLG za 10000 VLG anonymizujete.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1524,16 +1524,16 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start ValinorCoin after logging in to the system.</source>
-        <translation>Automaticky spustit ValinorCoin po přihlášení do systému</translation>
+        <source>Automatically start ValgardCoin after logging in to the system.</source>
+        <translation>Automaticky spustit ValgardCoin po přihlášení do systému</translation>
     </message>
     <message>
-        <source>&amp;Start ValinorCoin on system login</source>
-        <translation>&amp;Spusti ValinorCoin při přihlášení do systému</translation>
+        <source>&amp;Start ValgardCoin on system login</source>
+        <translation>&amp;Spusti ValgardCoin při přihlášení do systému</translation>
     </message>
     <message>
-        <source>Amount of ValinorCoin to keep anonymized</source>
-        <translation>Počet ValinorCoin pro anonymní držení</translation>
+        <source>Amount of ValgardCoin to keep anonymized</source>
+        <translation>Počet ValgardCoin pro anonymní držení</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
@@ -1639,8 +1639,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Obfuskační Balance:</translation>
     </message>
     <message>
-        <source>0 VPC / 0 Rounds</source>
-        <translation>0 VPC / 0 Kol</translation>
+        <source>0 VLG / 0 Rounds</source>
+        <translation>0 VLG / 0 Kol</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -2066,8 +2066,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Změna:</translation>
     </message>
     <message>
-        <source>0 VPC</source>
-        <translation>0 VPC</translation>
+        <source>0 VLG</source>
+        <translation>0 VLG</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2199,8 +2199,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The ValinorCoin address to sign the message with</source>
-        <translation>ValinorCoin adresa pro podepsání zprávy</translation>
+        <source>The ValgardCoin address to sign the message with</source>
+        <translation>ValgardCoin adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2227,16 +2227,16 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ValinorCoin address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto ValinorCoin adresu</translation>
+        <source>Sign the message to prove you own this ValgardCoin address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto ValgardCoin adresu</translation>
     </message>
     <message>
-        <source>The ValinorCoin address the message was signed with</source>
-        <translation>ValinorCoin adresa zprávy byla podpsána</translation>
+        <source>The ValgardCoin address the message was signed with</source>
+        <translation>ValgardCoin adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ValinorCoin address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou ValinorCoin adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified ValgardCoin address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou ValgardCoin adresou</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2278,8 +2278,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>ValinorCoin Core</source>
-        <translation>ValinorCoin Core</translation>
+        <source>ValgardCoin Core</source>
+        <translation>ValgardCoin Core</translation>
     </message>
     </context>
 <context>
@@ -2382,7 +2382,7 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     </context>
 <context>
-    <name>valinorcoin-core</name>
+    <name>valgardcoin-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>
