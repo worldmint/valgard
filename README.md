@@ -20,7 +20,7 @@ Cloning the repository and compiling (use any user with the sudo group):
 
     cd
     git clone https://github.com/worldmint/valgard.git
-    cd ValgardCoin
+    cd valgard
     ./autogen.sh
     ./configure
     sudo make install
